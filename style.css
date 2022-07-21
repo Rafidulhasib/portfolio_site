@@ -13,20 +13,26 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 150px;
+}
+#outf{
+    width: 600px;
+    height: 800px;
 }
 img{
     width: fit-content;
     height: fit-content;
 }
+
 .half-width{
     width: 30%;
     padding-left: 10%;
 }
 .half-width{
-    padding-right: 1%;
+    padding-right: 5%;
     width: 45%;
 }
-.hire-me{
+.link-button{
     text-decoration: none;
     background-image: linear-gradient(green, lightgreen);
     color:black ;
@@ -36,5 +42,12 @@ img{
 }
 .top-banner{
     background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
 
 }
