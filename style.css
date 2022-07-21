@@ -11,7 +11,7 @@ h1{
 .name{
     color: red;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -50,4 +50,25 @@ img{
     background-repeat: no-repeat;
     background-position-x: right;
 
+}
+
+.color{
+    color: dodgerblue;
+}
+
+.experience-item{
+    box-shadow: 10px 10px 40px dodgerblue;
+    border-radius: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-left:8px solid #fa6b58;
+}
+
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+footer p{
+    text-align: center;
 }
