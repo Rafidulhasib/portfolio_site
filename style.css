@@ -1,0 +1,40 @@
+body{
+    margin: 0%;
+}
+
+
+
+h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+}
+.name{
+    color: red;
+}
+section{
+    display: flex;
+}
+img{
+    width: fit-content;
+    height: fit-content;
+}
+.half-width{
+    width: 30%;
+    padding-left: 10%;
+}
+.half-width{
+    padding-right: 1%;
+    width: 45%;
+}
+.hire-me{
+    text-decoration: none;
+    background-image: linear-gradient(green, lightgreen);
+    color:black ;
+    font-weight: 900;
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+
+}
